@@ -17,7 +17,7 @@ const formatSens = (val: number) => {
 // Heatmap coloring for sensitivity
 const getSensColor = (val: number) => {
     if (Math.abs(val) < 0.05) return 'text-slate-600';
-    const opacity = Math.min(Math.abs(val), 1);
+    // REMOVED: const opacity = Math.min(Math.abs(val), 1); 
     if (val > 0.05) return `text-emerald-400 font-medium`;
     if (val < -0.05) return `text-rose-400 font-medium`;
     return 'text-slate-600';

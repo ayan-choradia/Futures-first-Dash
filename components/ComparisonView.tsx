@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Scenario, Holiday, DerivedInstrument } from '../types';
+import { Scenario, Holiday } from '../types';
 import { generateDailyRates, calculateMarketData } from '../utils/analytics';
 
 interface Props {

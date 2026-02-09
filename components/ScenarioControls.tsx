@@ -1,5 +1,5 @@
 import React from 'react';
-import { Scenario, Meeting } from '../types';
+import { Scenario } from '../types';
 import { Save, FolderOpen, RotateCcw } from 'lucide-react';
 
 interface Props {
